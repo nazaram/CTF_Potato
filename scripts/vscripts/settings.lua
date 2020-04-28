@@ -2,7 +2,7 @@
 
 
 ENABLE_HERO_RESPAWN = true              -- Should the heroes automatically respawn on a timer or stay dead until manually respawned
-UNIVERSAL_SHOP_MODE = false             -- Should the main shop contain Secret Shop items as well as regular items
+UNIVERSAL_SHOP_MODE = true             -- Should the main shop contain Secret Shop items as well as regular items
 ALLOW_SAME_HERO_SELECTION = true        -- Should we let people select the same hero as each other
 
 HERO_SELECTION_TIME = 30.0              -- How long should we let people select their hero?
@@ -39,7 +39,7 @@ ENABLE_TOWER_BACKDOOR_PROTECTION = false-- Should we enable backdoor protection 
 REMOVE_ILLUSIONS_ON_DEATH = false       -- Should we remove all illusions if the main hero dies?
 DISABLE_GOLD_SOUNDS = false             -- Should we disable the gold sound when players get gold?
 
-END_GAME_ON_KILLS = true                -- Should the game end after a certain number of kills?
+END_GAME_ON_KILLS = false                -- Should the game end after a certain number of kills?
 KILLS_TO_END_GAME_FOR_TEAM = 50         -- How many kills for a team should signify an end of game?
 
 USE_CUSTOM_HERO_LEVELS = true           -- Should we allow heroes to have custom levels?
